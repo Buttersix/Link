@@ -11,7 +11,8 @@ import SwiftUI
 struct LinkApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainNavView()
+            //AuthHomeView()
         }
     }
 }
